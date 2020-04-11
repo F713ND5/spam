@@ -4,8 +4,7 @@ import requests
 import os
 import time
 import subprocess
-def bersih():
-    subprocess.call("clear",shell=True)
+
 def thex(s):
     for c in s + '\n':
         sys.stdout.write(c)
@@ -29,7 +28,7 @@ def kembali():
 bersih()
 s = requests.Session()
 url = "https://www.indihome.co.id/verifikasi-layanan/login-otp"
-no = input("\033[1;37mMasukan Nomor Target\x1b[1;97m :\x1b[1;92m "'\n')
+no = input("\033[1;37mMasukan Nomor Target\x1b[1;97m :\x1b[1;92m ")
 token = s.get(url).text
 token = re.findall(r"name=\"_token\" value=\"(.*?)\"", token)[0]
 bangaad = "\n\n"
