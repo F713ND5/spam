@@ -1,1 +1,5 @@
-# spam
+Script ini di buat hanya untuk jahil dan konten YouTube semata...
+Nggak ada unsur kriminal....
+
+Jangan lupa subscribe chanel "IVAN FIRMANSYAH"
+Stop recode... Recode tidak akan menjadikan anda seorang hekel,etekel,cracker dan atek²nya
